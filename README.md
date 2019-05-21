@@ -12,7 +12,7 @@ A real time animated map showing real time movement of precipitations.
 
 ## Installation
 
-* `git clone https://github.com/mykle1/MMM-ISS-Live` into the `~/MagicMirror/modules` directory.
+* `git clone https://github.com/jojoduquartier/MMM-RAIN-RADAR.git` into the `~/MagicMirror/modules` directory.
 
 ## Config.js entry and options
 

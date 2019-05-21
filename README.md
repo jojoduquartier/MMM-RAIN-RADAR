@@ -24,7 +24,8 @@ A real time animated map showing real time movement of precipitations.
 			useHeader: true,    // true if you want a header
 			lat: "40.796850",   // Latitude
 			lon: "-89.675960",  // Longitude
-			legend: true        // true if color legend should be displayed
+			legend: true ,      // true if color legend should be displayed
+			area: 'IL',         // US State
 		}
     },
 

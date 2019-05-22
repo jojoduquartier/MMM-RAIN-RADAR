@@ -29,3 +29,8 @@ A real time animated map showing real time movement of precipitations.
 		}
     },
 
+## Acknowledgment
+Special thanks to:
+* [jewelltp](https://github.com/jewelltp) for coming up with the idea of the weather radar
+* [mykle1](https://github.com/mykle1) for the rather easy and simple to follow code for the **MMM-ISS-Live** module
+* [Oleksii Schastlyvyi](https://twitter.com/RainViewer) for providing an easily embeddable precipitation [radar](https://www.rainviewer.com/)

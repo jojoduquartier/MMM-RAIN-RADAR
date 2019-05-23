@@ -28,6 +28,10 @@ A real time animated map showing real time movement of precipitations.
 			area: 'IL',         // US State
 		}
     },
+    
+## Future Updates
+* Use US Weather warnings to hide/show radar
+* Directly get lat and lon and set as default
 
 ## Acknowledgment
 Special thanks to:

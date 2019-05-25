@@ -16,19 +16,37 @@ A real time animated map showing real time movement of precipitations.
 
 ## Config.js entry and options
 
-    {
-	    disabled: false,
-	    module: 'MMM-RAIN-RADAR',
-	    position: 'bottom_right',
+	{
+		disabled: false,
+		module: 'MMM-RAIN-RADAR',
+		position: 'bottom_right',
 		config: {
 			useHeader: true,    // true if you want a header
 			lat: "40.796850",   // Latitude
 			lon: "-89.675960",  // Longitude
-			legend: true ,      // true if color legend should be displayed
 			area: 'IL',         // US State
 		}
-    },
-    
+	},
+
+## Config.js optional properties
+
+	config: {
+		zoomLevel: 6,
+		mapType: 3, //0-Road Map 1-Satellite 2-Dark Map 3-OpenStreetMaps 4-Light Map
+		color: 3, //0-Original 1-Universal Blue 2-TITAN 3-The Weather Channel 5-NEXRAD Level-III 6-RAINBOW @ SELEX-SI
+		snow: 1,
+		smoothing: 1,
+		opacity: 88,
+		fastAnimation: 0,
+		coverage: 0,
+		darkTheme: 1,
+		UTCtime: 0,
+		legend: 1,
+		legendMin: 0, //set legend to 1 if you want legendMin to show
+		animate: 1,
+	}
+
+
 ## Future Updates
 * Use US Weather warnings to hide/show radar
 * Directly get lat and lon and set as default

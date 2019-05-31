@@ -4,7 +4,7 @@
 
 * Displays the Rain Viewer map of [RainRadar](https://www.rainradar.net/) instead of ISS live
 
-A real time animated map showing real time movement of precipitations. This module also uses the [US Government Weather API](https://www.weather.gov/documentation/services-web-api#) to get active weather alerts in a given US State. This API does not require any authentication of this date 05/30/2019.
+A real time animated map showing real time movement of precipitations. This module also uses the [US Government Weather API](https://www.weather.gov/documentation/services-web-api#) to get active weather alerts in a given US State. This API does not require any authentication as of this date 05/30/2019.
 
 ## Example
 

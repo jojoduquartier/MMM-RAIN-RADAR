@@ -4,7 +4,7 @@
 
 * Displays the Rain Viewer map of [RainRadar](https://www.rainradar.net/) instead of ISS live
 
-A real time animated map showing real time movement of precipitations. 
+A real time animated map showing real time movement of precipitations. This module also uses the [US Government Weather API](https://www.weather.gov/documentation/services-web-api#) to get active weather alerts in a given US State. This API does not require any authentication of this date 05/30/2019.
 
 ## Example
 
@@ -44,12 +44,15 @@ A real time animated map showing real time movement of precipitations.
 		legend: 1,
 		legendMin: 0, //set legend to 1 if you want legendMin to show
 		animate: 1,
+		updateOnWarning: 1, // 1: after updateInterval, weather warnings for your US states will be used to determine if module should be hidden. 0 module is perpertually displayed
+		updateInterval: 5 * 60 * 1000, // number of milliseconds. change 5 to 60 and it will update each 10 minutes
 	}
 
 
 ## Future Updates
-* Use US Weather warnings to hide/show radar
-* Directly get lat and lon and set as default
+* ~~Use US Weather warnings to hide/show radar~~ Done
+* ~~Directly get lat and lon and set as default~~ Please Provide Lat and Lon
+* Provide a list of precipitation related warnings so that module is update accordignly
 
 ## Acknowledgment
 Special thanks to:

@@ -1,3 +1,5 @@
+Sorry, This project is no longer maintained. Issues and enhancements will most likely not be addressed. Pull Requests are always welcome! Thank you
+
 [![Sorry - This is no Longer Maintained](https://img.shields.io/maintenance/no/2020?style=for-the-badge)](https://img.shields.io/maintenance/no/2020?style=for-the-badge)
 
 ## MMM-RAIN-RADAR

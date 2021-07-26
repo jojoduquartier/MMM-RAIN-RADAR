@@ -44,7 +44,7 @@ Module.register("MMM-RAIN-RADAR", {
 		let iframe = document.createElement("IFRAME");
 		iframe.id = "mmrainviewerframe";
 		iframe.classList.add("iframe");
-		iframe.style = "border:0;height:50vh";
+		iframe.style = "border:0";
 		iframe.width = this.config.width;
 		iframe.height = this.config.height;
 
